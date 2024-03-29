@@ -15,7 +15,6 @@ const PORT = process.env.PORT || 3000;
 //middleware
 app.use(morgan('dev'))
 app.use(express.json());
-app.use(fileUpload());
 
 
 //route
